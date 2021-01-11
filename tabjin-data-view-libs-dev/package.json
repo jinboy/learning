@@ -1,0 +1,20 @@
+{
+  "name": "tabjin-data-view-libs-dev",
+  "version": "1.0.0",
+  "description": "data-view components library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.dev.js"
+  },
+  "keywords": [],
+  "author": "Tabjin <529194627@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.10",
+    "rollup": "^2.34.2",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "sam-test-data": "^0.0.5"
+  }
+}
